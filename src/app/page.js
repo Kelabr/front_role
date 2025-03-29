@@ -1,14 +1,15 @@
-import LoginForm from "@/components/LoginForm";
+import LoginForm from "@/components/form/LoginForm";
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
 } from "@/components/ui/avatar"
+import UpCard from "@/components/animation/UpCard";
 
 export default function Home() {
   return (
     <main className="h-screen bg-[#1C1C1C]">
-      <div className="h-7/8 w-full  absolute bottom-0 px-6 rounded-t-4xl bg-white">
+      <UpCard>
         <div className=" w-full flex justify-center">
           <div className=" h-4 w-24  mt-2 rounded-4xl  bg-[#1C1C1C] "></div>
         </div>
@@ -23,7 +24,7 @@ export default function Home() {
           </div>
         </div>
         <LoginForm/>
-      </div>
+      </UpCard>
     </main>
   );
 }
