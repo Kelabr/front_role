@@ -5,6 +5,7 @@ import {
   AvatarImage,
 } from "@/components/ui/avatar"
 import UpCard from "@/components/animation/UpCard";
+import DegradeText from "@/components/animation/DegradeText";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           <div className="flex flex-col gap-2 justify-center mb-28">
-            <h1 className="text-2xl font-bold leading-[1.1]">Encontre um <br/> role para você</h1>
+            <DegradeText/>
             <span className="text-gray-500 font-medium">Só bora!!!</span>
           </div>
         </div>
