@@ -32,7 +32,7 @@ export default function RoleConfirm(){
                 <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" className="" />
                 <AvatarFallback>CN</AvatarFallback>
             </Avatar>  
-            <Link href="#" className=" left-20 ml-2 text-gray-500 underline">Quem vai</Link>    
+            <Link href="praca/quem-vai" className=" left-20 ml-2 text-gray-500 underline">Quem vai</Link>    
         </div>
         </>
 
