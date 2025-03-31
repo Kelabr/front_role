@@ -12,7 +12,7 @@ export default function LoginForm(){
 
 
         try{
-            const response = await fetch("http://localhost:3333/api/user", {
+            const response = await fetch("http://localhost:3333/api/login", {
                 method:"POST",
                 headers:{
                      "Content-Type": "application/json"
